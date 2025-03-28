@@ -30,9 +30,8 @@
     <div class="w3-bar-block">
       <a href="index.html" onclick="w3_close()" class="w3-xlarge w3-bar-item w3-button w3-hover-white">Home</a>
       <a href="#about" onclick="w3_close()" class="w3-xlarge w3-bar-item w3-button w3-hover-white">About</a>
-
+      <a href="#manuals" onclick="w3_close()" class="w3-xlarge w3-bar-item w3-button w3-hover-white">Manuals</a>
       <a href="#speaking" onclick="w3_close()" class="w3-xlarge w3-bar-item w3-button w3-hover-white">Speaking</a>
-
       <a href="#services" onclick="w3_close()" class="w3-xlarge w3-bar-item w3-button w3-hover-white">Services</a>
       <!-- <a href="cpd.html" onclick="w3_close()" class="w3-xlarge w3-bar-item w3-button w3-hover-white">CPD</a> -->
       <hr>
@@ -51,17 +50,14 @@
     <!-- Header -->
     <div class="w3-container" style="margin-top:60px" id="header">
       <h1 class="w3-xxlarge w3-text-blue"><b>AI focused Pythonista</b></h1>
-
       <div id="about" class="spacer"></div>
     </div>
     <!-- About -->
     <div class="w3-container" id="about">
       <h1 class="w3-xxlarge w3-text-blue"><b>About Craig</b></h1>
-
       <div>
         <img src='./images/craig-west.jpg' style="width: 225px;height:175px;float:left;padding:0 20px;"
           class="w3-circle" alt="Craig West" />
-
         <p>I am an Agentic AI focused Pythonista, living in Brighton, UK.</p>
         <p>As a former Microsoft Certified DBA (SQL 2000), I have a strong interest in data integrity as well as using
           browser storage (IndexedDB) for robust and fast data retrieval.</p>
@@ -71,10 +67,17 @@
           Business Information Architect, working with both clients and developers.</p>
         <p>AI Powered Knowledge Systems that has three main elements of AI Search, Agentic RAG and AI Agents in the Data
           Pipeline is more core focus currently.</p>
-        <h1>Manuals</h1>
+        <p><a href="https://github.com/Python-Test-Engineer" target="_blank">My Github CV</a>.
+        </p>
+        <div class="spacer"></div>
+      </div>
+    </div>
+    <!-- Manuals -->
+    <div class="w3-container" id="manuals">
+      <h1 class="w3-xxlarge w3-text-blue"><b>Manuals</b></h1>
+      <div>
         <p>I have written a number of manuals to help others. These contain both original work and curated links that I
           have found useful</p>
-
         <ol>
           <li><a
               href="https://ai-powered-knowledge-systems.netlify.app/">https://ai-powered-knowledge-systems.netlify.app/</a>
@@ -91,20 +94,14 @@
     <!-- Speaking -->
     <div class="w3-container" id="speaking">
       <h1 class="w3-xxlarge w3-text-blue"><b>Speaking</b></h1>
-
       <p>I enjoy giving talks and workshops on WP-HTML, Web Components and Progressive Web Apps.</p>
-
       <p>Talks and workshops given:</p>
       <h1>Python</h1>
       <li>Brighton Py Feb 2025: AI as API in everyday Python apps - 60 minute talk and demo.</li>
-
       <li>Django Japan Congress Feb 2025 (online): Implementing Agentic AI solutions in Django from scratch - 45
         minute talk.</li>
-
       <li>Conf42 Feb 2025 (online): Implementing Agentic AI Solutions in Python from scratch - 50 minute talk.</li>
-
       <li>PyCon Ireland Nov 2024: Getting started with Pytest - 2 hr workshop.</li>
-
       <span style="color:orange;font-weight: bold;">Next..</span>
       <li>
         DjangoConEurope April 2025: Implementing Agentic AI solutions in Django from scratch - 90 minute
@@ -142,10 +139,7 @@
     <!-- Services -->
     <div class="w3-container" id="services">
       <h1 class="w3-xxlarge w3-text-blue"><b>Services</b></h1>
-
-
       <p>I offer adhoc freelance services that suit your needs, ranging from half a day to more.</p>
-
       <div class="spacer"></div>
     </div>
     <!-- End page content -->
@@ -164,7 +158,6 @@
       document.getElementById("mySidebar").style.display = "block";
       document.getElementById("myOverlay").style.display = "block";
     }
-
     function w3_close() {
       document.getElementById("mySidebar").style.display = "none";
       document.getElementById("myOverlay").style.display = "none";
